@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+  font-family: 'DM Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+body {
+  background-color: hsl(27, 66%, 92%);
+  justify-content: center;
+  justify-items: center;
+}
+
+header {
+  display: flex;
+  width: 450px;
+  height: 80px;
+  margin: 30px 0 0 450px;
+  border-radius: 10px;
+  background-color: hsl(10, 79%, 65%);
+  color: white;
+}
+header section {
+  height: 70px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.mybalance > p {
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 100px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+header .valor {
+  height: 30px;
+  width: 80px;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+header img {
+  height: 40px;
+  width: auto;
+  margin: 20px 0 0 150px;
+}
+
+.contenedor {
+  height: 500px;
+  width: 450px;
+  margin-left: 450px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.contenedor > h1 {
+  margin: 10px;
+}
+
+.grafica {
+  display: flex;
+  font-size: 12px;
+  border-bottom: 3px solid hsl(27, 66%, 92%);
+}
+
+.grafica h2 {
+  font-size: 10px;
+}
+
+.caja1 {
+  background-color: hsl(10, 79%, 65%);
+  display: flex;
+  height: 35px;
+  margin-top: 190px;
+  border-radius: 5px;
+  width: 40px;
+  margin-left: 5px;
+  transition: 0.4s;
+}
+
+.caja1:hover {
+  background-color: hsl(240, 26%, 84%);
+}
+.caja1:hover > .capa {
+  opacity: 1;
+}
+
+.caja2 {
+  background-color: hsl(10, 79%, 65%);
+  display: flex;
+  height: 80px;
+  margin-top: 145px;
+  border-radius: 5px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+.caja2:hover {
+  background-color: hsl(30, 100%, 69%);
+}
+.caja2:hover > .capa2 {
+  opacity: 1;
+}
+
+.caja3 {
+  background-color: hsl(10, 79%, 65%);
+  display: flex;
+  height: 120px;
+  margin-top: 105px;
+  border-radius: 5px;
+  width: 40px;
+  margin-left: 5px;
+}
+.caja3:hover {
+  background-color: hsl(186, 34%, 60%);
+}
+.caja3:hover > .capa3 {
+  opacity: 1;
+}
+.caja4 {
+  background-color: hsl(10, 79%, 65%);
+  display: flex;
+  height: 70px;
+  margin-top: 155px;
+  border-radius: 5px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+.caja4:hover {
+  background-color: hsl(30, 100%, 69%);
+}
+.caja4:hover > .capa4 {
+  opacity: 1;
+}
+
+.caja5 {
+  background-color: hsl(10, 79%, 65%);
+  display: flex;
+  height: 50px;
+  margin-top: 175px;
+  border-radius: 5px;
+  width: 40px;
+  margin-left: 5px;
+}
+.caja5:hover {
+  background-color: hsl(186, 34%, 60%);
+}
+.caja5:hover > .capa5 {
+  opacity: 1;
+}
+.caja6 {
+  background-color: hsl(10, 79%, 65%);
+  display: flex;
+  height: 100px;
+  margin-top: 125px;
+  border-radius: 5px;
+  width: 40px;
+  margin-left: 5px;
+}
+.caja6:hover {
+  background-color: hsl(240, 26%, 84%);
+}
+.caja6:hover > .capa6 {
+  opacity: 1;
+}
+.caja7 {
+  background-color: hsl(10, 79%, 65%);
+  display: flex;
+  height: 55px;
+  margin-top: 170px;
+  border-radius: 5px;
+  width: 40px;
+  margin-left: 5px;
+}
+.caja7:hover {
+  background-color: hsl(30, 100%, 69%);
+}
+.caja7:hover > .capa7 {
+  opacity: 1;
+}
+
+.grafica p {
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 5px;
+  color: hsla(0, 1%, 26%, 0.541);
+}
+
+figure {
+  margin: 7px;
+}
+
+.capa {
+  position: relative;
+  bottom: 40px;
+  margin: 5px;
+  margin-left: 1px;
+  padding: 5px;
+  background-color: hsl(25, 47%, 15%);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: 0.4s;
+  opacity: 0;
+}
+.capa2 {
+  position: relative;
+  bottom: 60px;
+  margin: 28px;
+  margin-left: 1px;
+  padding: 5px;
+  background-color: hsl(25, 47%, 15%);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: 0.4s;
+  opacity: 0;
+}
+.capa3 {
+  position: relative;
+  bottom: 80px;
+  margin: 48px;
+  margin-left: 1px;
+  padding: 5px;
+  background-color: hsl(25, 47%, 15%);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: 0.4s;
+  opacity: 0;
+}
+.capa4 {
+  position: relative;
+  bottom: 55px;
+  margin: 24px;
+  margin-left: 1px;
+  padding: 5px;
+  background-color: hsl(25, 47%, 15%);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: 0.4s;
+  opacity: 0;
+}
+.capa5 {
+  position: relative;
+  bottom: 45px;
+  margin: 14px;
+  margin-left: 1px;
+  padding: 5px;
+  background-color: hsl(25, 47%, 15%);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: 0.4s;
+  opacity: 0;
+}
+.capa6 {
+  position: relative;
+  bottom: 70px;
+  margin: 38px;
+  margin-left: 1px;
+  padding: 5px;
+  background-color: hsl(25, 47%, 15%);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: 0.4s;
+  opacity: 0;
+}
+.capa7 {
+  position: relative;
+  bottom: 45px;
+  margin: 16px;
+  margin-left: 1px;
+  padding: 5px;
+  background-color: hsl(25, 47%, 15%);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: 0.4s;
+  opacity: 0;
+}
+.contenedor2 {
+  position: relative;
+  top: 5%;
+  margin: 10px;
+  width: 200px;
+}
+
+.contenedor2 > p {
+  color: hsla(0, 1%, 26%, 0.541);
+}
+
+.contenedor2 > h2 {
+  font-size: 30px;
+  padding-left: 10px;
+  color: hsl(25, 47%, 15%);
+}
+
+.contenedor3 {
+  position: relative;
+  left: 60%;
+  bottom: 10%;
+  width: 160px;
+  padding: 10px;
+  text-align: right;
+}
+.month #pct {
+  font-weight: bolder;
+}
+
+.month #last {
+  color: hsla(0, 1%, 26%, 0.541);
+  font-weight: 400;
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    margin-left: 10px;
+    width: 300px;
+  }
+  header img {
+    margin-left: 110px;
+  }
+  header section {
+    width: 100px;
+  }
+  .contenedor {
+    width: 300px;
+    margin-left: 15px;
+    height: 480px;
+    margin-bottom: 10px;
+  }
+
+  figure {
+    width: 25px;
+  }
+  .grafica div {
+    margin-right: 40px;
+    width: 25px;
+  }
+  .contenedor3 {
+    width: 130px;
+    left: 150px;
+    margin-top: 30px;
+  }
+
+  .month #last {
+    font-size: 14px;
+  }
+
+  .grafica h2 {
+    right: 8px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    margin-top: 150px;
+  }
+}
